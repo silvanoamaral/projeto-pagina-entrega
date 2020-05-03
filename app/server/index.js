@@ -11,7 +11,7 @@ const {
 app.use('/api/pedido', obterPedido)
 
 app.use('/', (req, res) => {
-  res.send({mensagem: 'Olá mundo!'})
+  res.send({mensagem: 'Olá mundo!!!!!!'})
 })
 
 app.listen(PORT, () => {
